@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/josephgodwinkimani/wpunderscores/master/example.jpg" wpunderscores")
+![alt text](https://raw.githubusercontent.com/josephgodwinkimani/wpunderscores/master/example.jpg "wpunderscores")
 
 
 
