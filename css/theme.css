@@ -1,0 +1,63 @@
+.page-footer,
+nav {
+  background-color: #ff6763 !important;
+  margin-bottom: 1.5em !important; }
+
+nav > button {
+  background-color: #ff6763 !important; }
+
+/* Changes color for all buttons */
+button, .btn {
+  background-color: #ff6763 !important; }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Regular"), local("Roboto-Regular"), url(../font/Roboto-Regular.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(../font/MaterialIcons-Regular.woff2) format("woff2"), url(../font/MaterialIcons-Regular.woff) format("woff"), url(../font/MaterialIcons-Regular.ttf) format("truetype"); }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* .searchbox-position { //Add styling for search box
+ 	display: inline;
+ 	white-space: nowrap;
+ } */
+.container {
+  margin: 1.5em;
+  min-width: 96%; }
+
+.widget-title {
+  font-size: 1.64rem; }

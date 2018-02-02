@@ -1,0 +1,98 @@
+//  #1 - Shamelessly inspired by CSS Guidelines <https://sass-guidelin.es/#syntax--formatting>
+//
+//  two (2) spaces indents, no tabs;
+//  ideally, 80-characters wide lines;
+// properly written multi-line CSS rules;
+//  meaningful use of whitespace.
+// 
+// #2 - Commenting
+//
+//  Ideally, any CSS ruleset should be preceded by a C-style comment explaining the point of the CSS block.
+//
+
+
+// Color Style
+$pink: #ff6763;
+
+.page-footer,
+nav {
+	background-color: $pink !important;
+	margin-bottom: 1.5em !important;
+}
+
+// added if you need to change nav button color for mobile user
+nav > button {
+	background-color: $pink !important;
+}
+
+/* Changes color for all buttons */
+button, .btn {
+ 	background-color: $pink !important;
+ }
+
+@font-face {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(../font/Roboto-Regular.woff) format('woff');
+}
+
+
+@font-face {
+font-family: 'Material Icons';
+font-style: normal;
+font-weight: 400;
+src: url(../font/MaterialIcons-Regular.eot); /* For IE6-8 */
+src: local('Material Icons'),
+local('MaterialIcons-Regular'),
+url(../font/MaterialIcons-Regular.woff2) format('woff2'),
+url(../font/MaterialIcons-Regular.woff) format('woff'),
+url(../font/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+// Strip ul of list styling & padding - for footer menu
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+ }
+
+/* .searchbox-position { //Add styling for search box
+ 	display: inline;
+ 	white-space: nowrap;
+ } */
+
+.container { 
+  margin: 1.5em; 
+  min-width: 96%;
+}
+
+.widget-title { // override h2 size
+  font-size: 1.64rem;
+}
+
