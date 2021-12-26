@@ -1,8 +1,15 @@
 {
-  "name": "wpsunderscores",
+  "name": "wpunderscores",
   "version": "1.0.0",
   "description": "Underscores + Materialize-CSS",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephgodwinkimani/wpunderscores.git"
+  },
   "keywords": [
     "underscores",
     "materialize-css",
@@ -10,16 +17,19 @@
   ],
   "author": "Joseph Godwin Kimani",
   "license": "GPL-2.0",
-  "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
-    "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-watch": "^5.0.0",
-    "gulplog": "^1.0.0",
-    "material-design-icons": "^3.0.1",
-    "materialize-css": "^0.100.2"
+  "bugs": {
+    "url": "https://github.com/josephgodwinkimani/wpunderscores/issues"
   },
-  
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "3.9.1",
+    "gulp-notify": "3.2.0",
+    "gulp-plumber": "1.2.0",
+    "gulp-sass": "3.1.0",
+    "gulp-watch": "5.0.0",
+    "gulplog": "1.0.0",
+    "material-design-icons": "latest",
+    "materialize-css": "latest" 
+  },
+  "homepage": "https://github.com/josephgodwinkimani/wpunderscores#readme"
 }
