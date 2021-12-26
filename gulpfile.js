@@ -83,13 +83,13 @@ gulp.task('copy', function() {
     .pipe(notify("copy roboto FONT"));
 });
 
-gulp.task('browser-sync', function() {
+gulp.task('watch', function() {
     browserSync.init(browserSyncWatchFiles, browserSyncOptions);
     notify("SASS & PHP file changed.").write('');
     logger.info('browser reloaded successfully.');
 });
 
 
-gulp.task('default', ['main_sass', 'custom_sass', 'copy', 'browser-sync'], function() { // add 'zurb-sass' if you are using custom foundation css
+gulp.task('default', ['main_sass', 'custom_sass', 'copy', 'watch'], function() { // add 'zurb-sass' if you are using custom foundation css
   gulp.watch('scss/**/*.scss', ['main_sass'], ['custom_sass']);
 });
